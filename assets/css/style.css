@@ -37,8 +37,9 @@ img {
 }
 
 section {
-    padding-top: 170px;
-    padding-bottom: 170px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 100vh;
 }
 
 /* navbar */
@@ -81,6 +82,7 @@ section {
 .hero {
     background: url('../img/hero-cover.jpg') no-repeat center center/cover;
     min-height: 100vh;
+
 }
 
 .hero h1,
@@ -213,6 +215,10 @@ intro p {
 }
 
 /* footer */
+footer {
+    bottom: 0;
+    width: 100%;
+}
 .footer-top {
     padding-bottom: 30px;
     border-bottom: var(--border-width) solid  var(--border-color);
