@@ -172,6 +172,13 @@ intro p {
 }
 
 .project .image-wrapper img {
+    height: 400px;
+    width: 100%;
+
+    object-fit: cover;
+}
+
+.project .image-wrapper img {
     border-radius: var(--border-radius);
     transform: scale(1.1);
     transition: all 0.4s ease;
